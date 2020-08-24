@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+}
+
+ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 5px;
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    font-family: sans-serif;
+}
